@@ -41,6 +41,19 @@ public class Ex3_11 {
 //        System.out.println(str1.equals(str2));
         
         //3-15 논리 연산자
+        //3-17 조건 연산자 ?;
+//        int x=5,y=3;
+//
+//        int result = (x>y) ? x:y; //괄호 생략가능
+//        System.out.println(result);
+//
+        //3-18 대입 연산자
+        //오른쪽 피연산자를 왼쪽 피연산자에 저장 후 저장된 값을 반환
+        // System.out.println(x=3);
+        //lvalue -대입 연산자의 왼쪽 피연산자
+        //rvalue -대입 연산자의 오른쪽 피연산자
+        
+        
         
         
     }
