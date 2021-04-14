@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ex4;
 
 public class Ex04_practice {
     public static void main(String[] args){

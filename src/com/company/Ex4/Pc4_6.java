@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ex4;
 
 public class Pc4_6 {
     public static void main(String[] args) {

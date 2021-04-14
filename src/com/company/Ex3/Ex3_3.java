@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ex3;
 
 public class Ex3_3 {
     public static void main(String[] args) {
