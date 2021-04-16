@@ -21,9 +21,7 @@ public class Ex06_03 {
         System.out.printf("c1은 %s, %d이며, 크기는 (%d, %d)\n",c1.kind,c1.number,c1.width,c1.height);
         System.out.printf("c2은 %s, %d이며, 크기는 (%d, %d)\n", c2.kind, c2.number, c2.width, c2.height);
     }
-}
-
-class Card {
+}class Card {
     String kind;
     int number;
     static int width = 100;
