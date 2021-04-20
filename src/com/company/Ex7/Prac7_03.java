@@ -1,6 +1,7 @@
 package com.company.Ex7;
 
 class Product11 {
+    public int bounusPoint1;
     int price;
     int bonusPoint;
     

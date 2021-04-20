@@ -47,7 +47,7 @@ class Buyer { //고객 , 물건을 사는 사람
             return;
         }
         money -= p.price;
-        bounusPoint += p.bounusPoint;
+        bounusPoint += p.bounusPoint1;
         cart[i++] = p; //제품을 Product[]cart에 담는다.
         System.out.println(p + "을/를 구입하셨습니다");
     }
