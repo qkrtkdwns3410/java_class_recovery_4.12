@@ -13,7 +13,7 @@ class Product {
     Product() {}//기본 생성자
 }
 
-class Tv1 extends Product {
+class Tv1 extends Product11 {
     
     Tv1() {
         //조상 클래스의 생성자 Product(int Price)를 호출한다
@@ -24,7 +24,7 @@ class Tv1 extends Product {
         return "Tv";}
 }
 
-class Computer extends Product {
+class Computer extends Product11 {
     Computer() {
         super(200);
     }
@@ -38,10 +38,10 @@ class Computer extends Product {
 class Buyer { //고객 , 물건을 사는 사람
     int money = 1000;
     int bounusPoint = 0;
-    Product[] cart = new Product[10]; //구입한 상품을 저장하기 위한 배열
+    Product11[] cart = new Product11[10]; //구입한 상품을 저장하기 위한 배열
     int i = 0; //Product배열에 사용될 카운터
     
-    void buy(Product p) {
+    void buy(Product11 p) {
         if (money < p.price) {
             System.out.println("잔액이 부족하여 물건을 살 수 없습니다");
             return;
