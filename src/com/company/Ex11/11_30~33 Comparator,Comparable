@@ -1,0 +1,27 @@
+11-30 comparator와 Comparable
+-객체 정렬에 필요한 메서드(정렬기준 제공)를 정의한 인터페이스
+comparable -기본 정렬기준을 구현하는데 사용
+Comparator - 기본 정렬기준 외에 다른 기준으로 정렬하고자할 때 사용
+
+
+11-34 HashSet- 순서 x,중복 x
+    list는 순서 o,중복 o
+
+    -set인터페이스를 구현한 대표적인 컬렉션 클래스
+    -순서를 유지하려면, LinkedHashSet사용하면 된다
+
+    >TresSet
+    -범위 검색과 정렬에 유리한 컬렉션 클래스
+    -HashSet보다 데이터 추가, 삭제에 시간이 걸립니다.
+
+    >주요 메서드
+    HashSet(Collection c)
+    boolean add(o)
+    boolean addAll(c) 합집합
+
+
+11-37 HashSet - 예제3
+//순서 x 중복 x
+-HashSet은 객체를 저장하기전에 기존에 같은 객체가 있는지 확인
+    같은 객체가 없으면 저장하고,  있으면 저장하지 않는다.
+-boolean add(Object o )는 저정할 객체의 equals()와 hasCode()를 호출한다.
