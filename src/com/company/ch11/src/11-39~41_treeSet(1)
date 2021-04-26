@@ -1,0 +1,82 @@
+11-39 - 범위 탐색, 정렬
+TreeSet
+-이진 탐색 트리로 구현한다. 범위 탐색과 정렬에 유리하다.
+(이진 트리 검색https://www.google.com/search?q=%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC&newwindow=1&tbm=isch&source=iu&ictx=1&fir=uh8kxccD41i7gM%252CVmeqfyU4iiFSAM%252C_&vet=1&usg=AI4_-kSViDHH3RO2ckrO0OPBsRTIorH13Q&sa=X&ved=2ahUKEwjG4MbHoZvwAhWNFogKHfQWB-YQ_h16BAgPEAE#imgrc=uh8kxccD41i7gM)
+-이진 트리는 모든 노드가 최대 2개의 하위 노드를 갖는다.
+(자식이 최대 2개이란 의미입니다)
+-각 요소(node)가 나무(tree)형태로 연결(LinkedList의 변형)]
+
+11-40 이진 탐색트리(binary search tree)
+-부모보다 작은 값은 왼쪽, 큰값은 오른쪽에 저장합니다.
+-데이터가 많아질 수록 추가, 삭제에 시간이 더 걸림(비교 횟수가 증가합니다)
+
+11-41 TreeSet  - 데이터 저장과정 boolean add(object o)
+HashSet은 equals(), HashCode()로 비교
+TreeSet은 compare()를 호출해서 비교
+
+Object first() 정렬된 숫자서에서 첫번째 객체를 반환한다
+Object last()정렬된 숫자에서 마지막 객체 반환
+
+11-46 HashMap과 Hashtable- 순서 x, 중복(키x, 값o)
+
+-Map 인터페이스를 구현,  데이터를 키와 값의 쌍으로 저장한다.
+(ID와 PW와 같음)
+아이디를 중복 X PW중복 O.
+
+-HashMap
+-Map인터페이스를 구현한 대표적인 컬렉션 클래스
+-순서를 유지하려면, LinkedHasMap클래스를 사용하면 됩니다.
+
+>>TreeMap =? TreeSet
+-범위 검색과 정렬에 유리한 컬렉션 클ㄹ래스
+
+
+>>HashMap
+>   해싱기업으로 데이터를 저장,데이터가 많아도 검색이 빠르다.
+    Map인터페이스를 구현..
+    map.put(key, value)
+    key는 중복 x 키가 같은 경우 새로운 밸류값으로 치환한다.
+
+해싱 -환자정보관리
+    키값을 넣으면 해시함수를 통해 해시코드를 알려줌 (인덱스를 알려줌)
+
+    -해시함수로 해시테이블에 데이터를 저장,검색
+    -해시 테이블은 배엵과 링크드 리스트가 조합된 형태입니다.
+
+    >해시테이블에 저장된 데이터를 가져오는 과정
+    1)키로 해시함수를 호출해서 해시코드를 얻는다.
+    2)해시코드(해시함수의 반환값)에 대응하는 링크드리스트를 배열에서 찾는다.
+    3)링크드리스트에서 키와 일치하는 데이터를 찾는다.
+    ** 해시함수는 같은 키에 대해 항상 같은 해시코드를 반환해야한다.
+       서로 다른 키일지라도 같은 값의 해시코드를 반환할 수 도 있다.
+
+11-48 HashMap 주요 메서드
+
+-해쉬테이블 =배열 + 링크드리스트
+Set entrySet()
+Set KeySet() ..읽기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
